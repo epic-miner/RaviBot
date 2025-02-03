@@ -13,3 +13,7 @@ python-dotenv
 tgcrypto
 html_telegraph_poster
 uvloop
+torrentp
+ffmpeg
+lxml_html_clean
+--upgrade lxml[html_clean]
