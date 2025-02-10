@@ -11,18 +11,19 @@ from .func_utils import handle_logs
 from .reporter import rep
 
 CAPTION_FORMAT = """
-<b>㊂ <i>{title}</i></b>
-<b>╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅</b>
-<b>⊙</b> <i>Genres:</i> <i>{genres}</i>
-<b>⊙</b> <i>Status:</i> <i>RELEASING</i> 
-<b>⊙</b> <i>Source:</i> <i>Subsplease</i>
-<b>⊙</b> <i>Episode:</i> <i>{ep_no}</i>
-<b>⊙</b> <i>Audio: Japanese</i>
-<b>⊙</b> <i>Subtitle: English</i>
-<b>╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅</b>
-╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
-⌬  <b><i>Powered By</i></b> ~ </i></b><b><i>{cred}</i></b>
-╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
+🎬 <b>㊂ {title}</b> 🎬  
+╭───────────∘❀∘───────────╮   
+<b>📅 Season :</b>  <code>{anime_season}</code>  
+<b>🎞️ Episode :</b>  <code>{ep_no}</code>  
+<b>🔊 Language :</b>  <code>Japanese [ESub]</code>  
+<b>⭐ Score :</b>  <code>{avg_score}</code>  
+<b>📡 Status :</b>  <code>{status}</code>  
+<b>🎬 Total Episodes :</b>  <code>{t_eps}</code>  
+<b>🎭 Genres :</b>  <code>{genres}</code>  
+╰───────────∘❀∘───────────╯ 
+<b>╭━━━━━━━〔⚡〕━━━━━━━╮</b>
+<b>🚀 JOIN US :</b> <code>{cred}</code>
+<b>╰━━━━━━━〔⚡〕━━━━━━━╯</b>
 """
 
 GENRES_EMOJI = {"Action": "👊", "Adventure": choice(['🪂', '🧗‍♀']), "Comedy": "🤣", "Drama": " 🎭", "Ecchi": choice(['💋', '🥵']), "Fantasy": choice(['🧞', '🧞‍♂', '🧞‍♀','🌗']), "Hentai": "🔞", "Horror": "☠", "Mahou Shoujo": "☯", "Mecha": "🤖", "Music": "🎸", "Mystery": "🔮", "Psychological": "♟", "Romance": "💞", "Sci-Fi": "🛸", "Slice of Life": choice(['☘','🍁']), "Sports": "⚽️", "Supernatural": "🫧", "Thriller": choice(['🥶', '🔪','🤯'])}
@@ -192,7 +193,7 @@ class TextEditor:
     async def get_poster(self):
         if anime_id := await self.get_id():
             return f"https://img.anili.st/media/{anime_id}"
-        return "https://telegra.ph/file/112ec08e59e73b6189a20.jpg"
+        return "https://envs.sh/EI.jpg"
         
     @handle_logs
     async def get_upname(self, qual=""):
