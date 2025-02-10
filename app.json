@@ -1,5 +1,5 @@
 { 
-   "name": "FZXAniAdvanced", 
+   "name": "9Anime", 
    "description": "A Telegram Bot automatically Fetch, Encode & Upload Animes Using RSS & LibTorrent", 
    "keywords": ["telegram", "files", "stream"],
    "success_url": "/",
