@@ -12,14 +12,13 @@ from .reporter import rep
 
 CAPTION_FORMAT = """
 🎬 <b>㊂ {title}</b> 🎬  
-╭───────────∘❀∘───────────╮   
-<b>📅 Season :</b>  <code>{anime_season}</code>  
-<b>🎞️ Episode :</b>  <code>{ep_no}</code>  
-<b>🔊 Language :</b>  <code>Japanese [ESub]</code>  
-<b>⭐ Score :</b>  <code>{avg_score}</code>  
-<b>📡 Status :</b>  <code>{status}</code>  
-<b>🎬 Total Episodes :</b>  <code>{t_eps}</code>  
-<b>🎭 Genres :</b>  <code>{genres}</code>  
+╭───────────∘❀∘───────────╮
+<b>🎬 Episode:</b>  <code>{ep_no}</code>
+<b>🔊 Audio:</b>  <code>Japanese</code>  
+<b>💬 Subtitle:</b>  <code>English</code>
+<b>📡 Status:</b>  <code>Ongoing</code>  
+<b>🎞️ Source:</b>  <code>9Anime</code>    
+<b>🎭 Genres:</b>  <code>{genres}</code>
 ╰───────────∘❀∘───────────╯ 
 <b>╭━━━━━━━〔⚡〕━━━━━━━╮</b>
 <b>🚀 JOIN US :</b> <code>{cred}</code>
