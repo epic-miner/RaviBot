@@ -56,11 +56,11 @@ class Var:
     QUALS = getenv("QUALS", "360 480 720 1080").split()
     
     AS_DOC = getenv("AS_DOC", "True").lower() == "true"
-    THUMB = getenv("THUMB", "https://envs.sh/Ep.jpg")
+    THUMB = getenv("THUMB", "https://te.legra.ph/file/621c8d40f9788a1db7753.jpg")
     AUTO_DEL = getenv("AUTO_DEL", "True").lower() == "true"
     DEL_TIMER = int(getenv("DEL_TIMER", "600"))
-    START_PHOTO = getenv("START_PHOTO", "https://envs.sh/EY.jpg")
-    START_MSG = getenv("START_MSG", "<b>Hey {first_name}</b>,\n\n    <i>I am 9Animes Store & Automater Encoder Build with ❤️ !!</i>")
+    START_PHOTO = getenv("START_PHOTO", "https://te.legra.ph/file/120de4dbad87fb20ab862.jpg")
+    START_MSG = getenv("START_MSG", "<b>Hey {first_name}</b>,\n\n    <i>I am Auto Animes Store & Automater Encoder Build with ❤️ !!</i>")
     START_BUTTONS = getenv("START_BUTTONS", "UPDATES|https://telegram.me/NineAnimeOfficial SUPPORT|https://t.me/BlakiteFF")
 
 if Var.THUMB and not ospath.exists("thumb.jpg"):
