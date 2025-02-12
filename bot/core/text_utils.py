@@ -17,11 +17,11 @@ CAPTION_FORMAT = """
 <b>🔊 Audio:</b>  <code>Japanese</code>  
 <b>💬 Subtitle:</b>  <code>English</code>
 <b>📡 Status:</b>  <code>Ongoing</code>  
-<b>🎞️ Source:</b>  <code>9Anime</code>    
+<b>🎞️ Source:</b>  9Anime    
 <b>🎭 Genres:</b>  <code>{genres}</code>
 ╰───────────∘❀∘───────────╯ 
 <b>╭━━━━━━━〔⚡〕━━━━━━━╮</b>
-<b>🚀 JOIN US :</b> <code>{cred}</code>
+<b>🚀 JOIN US :</b> {cred}
 <b>╰━━━━━━━〔⚡〕━━━━━━━╯</b>
 """
 
